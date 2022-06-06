@@ -54,10 +54,10 @@ const Dashboard = ({ courses }) => {
                     <tbody>
                         {courseData.map((course) => (
                             <tr key={course._id}>
-                                <td>{course.title}</td>
+                                <td style={{ verticalAlign: "middle" }}>{course.title}</td>
                                 <td>
                                     <a
-                                        href={`http://localhost:4000/uploads/thumbnails/${course.thumbnail}`}
+                                        href={`https://ulearn-ol.herokuapp.com/uploads/thumbnails/${course.thumbnail}`}
                                         target="_blank"
                                         rel="noreferrer"
                                         className="btn btn-info btn-lg"
@@ -65,7 +65,9 @@ const Dashboard = ({ courses }) => {
                                         نمایش تصویر
                                     </a>
                                 </td>
-                                <td>{course.price === 0 ? "رایگان" : `${course.price}`}</td>
+                                <td style={{ verticalAlign: "middle" }}>
+                                    {course.price === 0 ? "رایگان" : `${course.price}`}
+                                </td>
                                 <td>
                                     <Link to={`/dashboard/edit-course/${course._id}`}>
                                         <button className="btn btn-warning btn-lg">ویرایش</button>

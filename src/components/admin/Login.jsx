@@ -50,15 +50,6 @@ const Login = () => {
                         }}
                     />
                     {validator.current.message("password", password, "required|min:5")}
-                    <label>
-                        <input
-                            type="checkbox"
-                            name="remember"
-                            value="remember-me"
-                            style={{ marginTop: "2rem" }}
-                        />{" "}
-                        من را به خاطر بسپار
-                    </label>
                     <button type="submit" className="btn-admin">
                         ورود
                     </button>

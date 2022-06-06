@@ -90,6 +90,11 @@
     transition: all 0.3s;
 }
 
+.button--full {
+    background-color: #e67e22;
+    color: #fff;
+}
+
 .button--full:link,
 .button--full:visited {
     background-color: #e67e22;
@@ -101,10 +106,17 @@
     background-color: #cf711f;
 }
 
+.button--outline {
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #e67e22;
+}
+
 .button--outline:link,
 .button--outline:visited {
     background-color: #fff;
     color: #555;
+    border: 1px solid #e67e22;
 }
 
 .button--outline:hover,

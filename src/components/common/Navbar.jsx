@@ -59,21 +59,9 @@ const Navbar = () => {
                                     </NavLink>
                                 </li>
 
-                                <li>
-                                    <NavLink className="main-nav-link" to="/">
-                                        صحفه اصلی
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <a className="main-nav-link" href="#About-us">
-                                        درباره ما
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="main-nav-link" href="#Contact">
-                                        تماس با ما
-                                    </a>
-                                </li>
+                                <li className="main-nav-link">صحفه اصلی</li>
+                                <li className="main-nav-link">درباره ما</li>
+                                <li className="main-nav-link">تماس با ما</li>
                             </>
                         )}
                     </ul>

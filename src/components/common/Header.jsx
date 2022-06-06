@@ -15,12 +15,10 @@ const Header = () => {
                                 مهارت های جدید را به صورت آنلاین با مدرسین برتر بیاموزید.
                             </p>
                             <div className="course-btn">
-                                <a href="#" className="button button--outline ">
-                                    بیشتر بدانید &darr;
-                                </a>
-                                <a href="#" className="button button--full margin-right-sm">
+                                <span className="button button--outline ">بیشتر بدانید &darr;</span>
+                                <span className="button button--full show-more">
                                     همین الان شروع کن
-                                </a>
+                                </span>
                             </div>
                         </div>
                     </div>

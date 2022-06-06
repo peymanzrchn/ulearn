@@ -44,7 +44,7 @@ const Register = () => {
                     />
                     {validator.current.message("fullname", fullname, "required|min:5")}
                     <input
-                        type="text"
+                        type="email"
                         className="input-field"
                         placeholder="آدرس ایمیل"
                         name="email"

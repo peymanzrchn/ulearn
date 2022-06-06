@@ -78,6 +78,16 @@ body {
     gap: 4.8rem;
 }
 
+.main-nav-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
 .main-nav-link:link,
 .main-nav-link:visited {
     display: inline-block;
@@ -228,6 +238,10 @@ body {
     margin-top: 9.6rem;
 }
 
+.show-more {
+    margin-right: 25px;
+}
+
 /**************************/
 /* HERO SECTION */
 /**************************/
@@ -365,6 +379,8 @@ body {
 
 .courses {
     padding: 50px 0 100px 0;
+    /* background-color: #f7f8fc; */
+    /* box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2); */
 }
 
 .wrapper {
@@ -376,6 +392,7 @@ body {
     column-gap: 15px;
     row-gap: 25px;
     overflow: hidden;
+    /* box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2); */
 }
 
 .course-heading {
@@ -394,19 +411,22 @@ body {
     text-align: center;
     color: #cf711f;
     display: block;
+    margin-bottom: 25px;
     margin-top: -15px;
 }
 
 .card-course {
     background-color: #fdf2e9;
     border-radius: 10px;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 5px 10px 8px #fdf2e9;
     overflow: hidden;
     max-width: 300px;
     min-height: 315px;
     width: 100%;
     height: 100%;
     margin: 10px auto;
+    transform: translateY(-1.2rem);
     transition: all 0.4s;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -415,8 +435,12 @@ body {
 }
 
 .card-course:hover {
-    transform: translateY(-1.2rem);
+    transform: translateY(-2.8rem);
     box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+    -webkit-transform: translateY(-2.8rem);
+    -moz-transform: translateY(-2.8rem);
+    -ms-transform: translateY(-2.8rem);
+    -o-transform: translateY(-2.8rem);
 }
 
 .card-course-header img {
@@ -477,6 +501,7 @@ body {
     font-family: yekanf;
     padding: 20px 15px 20px 0;
     font-size: 18px;
+    margin: 0;
 }
 
 .card-course-time {
@@ -494,6 +519,7 @@ body {
 .card-course-time .timer {
     font-family: yekanf;
     font-size: 18px;
+    margin: 0;
 }
 
 /**************************/
