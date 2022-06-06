@@ -34,6 +34,7 @@
     margin-bottom: 20px;
     border-radius: 10px;
     max-width: 350px;
+    vertical-align: middle;
     width: 100%;
     position: relative;
     -webkit-border-radius: 10px;
@@ -91,4 +92,33 @@
 
 .pagination a:hover:not(.active) {
     background-color: #ddd;
+}
+
+.return-home-course {
+    display: flex;
+    justify-content: flex-end;
+    color: #cf711f;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+form.example {
+    margin: auto;
+    max-width: 400px;
+}
+
+form.example input[type="text"] {
+    padding: 8px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    float: right;
+    width: 100%;
+    background: #f1f1f1;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }

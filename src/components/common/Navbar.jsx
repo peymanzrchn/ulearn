@@ -58,8 +58,6 @@ const Navbar = () => {
                                         عضویت
                                     </NavLink>
                                 </li>
-
-                                <li className="main-nav-link">صحفه اصلی</li>
                                 <li className="main-nav-link">درباره ما</li>
                                 <li className="main-nav-link">تماس با ما</li>
                             </>

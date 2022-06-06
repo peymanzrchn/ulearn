@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { useSearchParams, useLocation } from "react-router-dom";
 
 const GetAllCourses = ({ courses }) => {
@@ -12,7 +12,7 @@ const GetAllCourses = ({ courses }) => {
                     دوره های <span style={{ color: "#cf711f" }}> برنامه نویسی وب </span>
                     <span className="number-course">{courses.length} دوره</span>
                 </header>
-                <form style={{ display: "block" }}>
+                {/* <form style={{ display: "block" }}>
                     <input
                         type="text"
                         className="input-search"
@@ -28,8 +28,11 @@ const GetAllCourses = ({ courses }) => {
                         }}
                     />
                     <button className="btn-search">
-                        <i className="fa fa-search"></i>
+                        <i className="fa fa-search" style={{ marginTop: "6px" }}></i>
                     </button>
+                </form> */}
+                <form className="example">
+                    <input type="text" placeholder="جستجو...." name="search2" />
                 </form>
             </div>
             {courses
