@@ -1054,4 +1054,8 @@ body {
     .button--outline {
         font-size: 12px;
     }
+
+    .section-featured {
+        padding: 6.8rem 0 13rem 0;
+    }
 }
