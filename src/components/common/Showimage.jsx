@@ -5,7 +5,7 @@ const ShowImage = ({ image }) => {
     return (
         <Img
             src={[
-                `http://localhost:4000/uploads/thumbnails/${image}`,
+                `https://ulearn-ol.herokuapp.com/uploads/thumbnails/${image}`,
                 `https://via.placeholder.com/150*100`,
             ]}
             loader={
