@@ -12,11 +12,10 @@ const GetAllCourses = ({ courses }) => {
                     دوره های <span style={{ color: "#cf711f" }}> برنامه نویسی وب </span>
                     <span className="number-course">{courses.length} دوره</span>
                 </header>
-                {/* <form style={{ display: "block" }}>
+                <form className="example">
                     <input
                         type="text"
-                        className="input-search"
-                        placeholder="دوره مورد نظر"
+                        placeholder="جستجو...."
                         value={searchParams.get("filter")}
                         onChange={(event) => {
                             let filter = event.target.value;
@@ -27,12 +26,6 @@ const GetAllCourses = ({ courses }) => {
                             }
                         }}
                     />
-                    <button className="btn-search">
-                        <i className="fa fa-search" style={{ marginTop: "6px" }}></i>
-                    </button>
-                </form> */}
-                <form className="example">
-                    <input type="text" placeholder="جستجو...." name="search2" />
                 </form>
             </div>
             {courses

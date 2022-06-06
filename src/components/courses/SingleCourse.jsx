@@ -43,8 +43,10 @@ const SingleCourse = (props) => {
                         </div>
 
                         <div className="teacher-info">
-                            <img src="../img/1.png" />
-                            {/* <p> مدرس : {user.fullname} </p> */}
+                            <img
+                                src={`https://ulearn-ol.herokuapp.com/uploads/thumbnails/${course.thumbnail}`}
+                            />
+                            <p> مدرس:</p>
                             <p>
                                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
                                 استفاده از طراحان گرافیک است استفاده از طراحان گرافیک است ...
@@ -83,7 +85,9 @@ const SingleCourse = (props) => {
                     </div>
 
                     <div className="content-description">
-                        <img src={`http://localhost:4000/uploads/thumbnails/${course.thumbnail}`} />
+                        <img
+                            src={`https://ulearn-ol.herokuapp.com/uploads/thumbnails/${course.thumbnail}`}
+                        />
 
                         <p>{course.info}</p>
 
