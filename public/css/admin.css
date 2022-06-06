@@ -1,0 +1,183 @@
+.register {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/dose-media-bU6JyhSI6zo-unsplash.jpg");
+    min-height: 580px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/jeshoots-com-pUAM5hPaCRI-unsplash.jpg");
+    min-height: 580px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.forget {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/116118639-forgot-password-words-shows-login-authentication-invalid-remember-login-security-verification-3d-ill.jpg");
+    min-height: 580px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.reset {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/116117675-reset-password-key-to-redo-security-of-pc-new-code-for-securing-computer-3d-illustration.jpg");
+    min-height: 580px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.form-box {
+    max-width: 380px;
+    width: 100%;
+    min-height: 520px;
+    background: #fff;
+    position: relative;
+    margin: 60px auto;
+    padding: 5px;
+    opacity: 0.8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.form-box .title {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.form-box .title h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    width: 100%;
+    display: flex;
+}
+.social ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.social ul li {
+    margin: 0 15px;
+}
+
+.social ul li a i {
+    color: #fff;
+}
+
+.social ul li:nth-child(1) {
+    background-color: rgb(207, 0, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.social ul li:nth-child(2) {
+    background-color: rgb(0, 107, 207);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.social ul li:nth-child(3) {
+    background-color: rgb(0, 207, 162);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.form-signin {
+    width: 100%;
+    padding: 0 30px;
+}
+
+.form-signin .input-field {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.btn-admin {
+    width: 100%;
+    border: none;
+    background: #0353a8;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    padding: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.return-home {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    color: #0353a8;
+}
+
+.recaptcha {
+    margin: 10px 0;
+}
