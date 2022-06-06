@@ -44,7 +44,7 @@ const GetAllCourses = ({ courses }) => {
                         <div className="card-course-header">
                             <NavLink to={`/course/${course._id}`}>
                                 <img
-                                    src={`http://localhost:4000/uploads/thumbnails/${course.thumbnail}`}
+                                    src={`https://ulearn-ol.herokuapp.com/uploads/thumbnails/${course.thumbnail}`}
                                     alt="node"
                                 />
                             </NavLink>
