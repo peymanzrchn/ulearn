@@ -966,6 +966,15 @@ body {
     .wrapper-all {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .content-title h3 {
+        font-size: 13px;
+    }
+
+    .content-title a {
+        font-size: 13px;
+        top: 26px;
+    }
 }
 
 @media (max-width: 34em) {
