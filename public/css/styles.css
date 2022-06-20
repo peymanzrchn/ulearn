@@ -248,6 +248,7 @@ body {
 
 .section-hero {
     background-color: #fdf2e9;
+    height: 100vh;
 }
 
 .hero {
