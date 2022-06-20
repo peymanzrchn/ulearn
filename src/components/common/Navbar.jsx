@@ -66,21 +66,27 @@ const Navbar = () => {
                 </nav>
                 <div className="menu">
                     {!isEmpty(user) ? (
-                        <div className="navbar">
-                            <div className="dropdown">
-                                <button className="dropbtn">
-                                    منوی کاربری
-                                    <i
-                                        className="fa fa-caret-down"
-                                        style={{ marginRight: "5px" }}
-                                    ></i>
-                                </button>
-                                <div className="dropdown-content">
-                                    <a href="#">پنل ادمین</a>
-                                    <a href="/logout">خروج</a>
-                                </div>
-                            </div>
-                        </div>
+                        <ul className="d-flex list-unstyled">
+                            <li>
+                                <NavLink
+                                    to="/dashboard"
+                                    className="main-nav-link"
+                                    style={{ fontSize: "16px", padding: "10px" }}
+                                >
+                                    پنل ادمین
+                                </NavLink>
+                            </li>
+
+                            <li>
+                                <NavLink
+                                    to="/logout"
+                                    className="main-nav-link"
+                                    style={{ fontSize: "16px", padding: "10px" }}
+                                >
+                                    خروج
+                                </NavLink>
+                            </li>
+                        </ul>
                     ) : (
                         <div className="hamburger-menu" onClick={handleShowNavbar}>
                             <div className="bar"></div>
